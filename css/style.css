@@ -1,9 +1,171 @@
-* {
-    display: block;
-    border: 2px solid red;
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+
 }
 
-img {
-    width: 100px;
-    height: 100px;
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+    padding: 0px;
+    margin: 0px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    background-color: #3882F6;
+    border-radius: 5px;
+    color: white;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+    padding: 20px 200px;
+}
+
+.hdrh1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+/* Content 1 */
+.content1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+    padding: 20px 200px;
+}
+
+.c1h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    margin: 0;
+}
+
+.c1p {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 5px 0 10px 0;
+}
+
+.c1img {
+    max-width: 300px;
+    height: auto;
+    padding: 20px;
+}
+
+.c1button {
+    border: 0px;
+    font-weight: bold;
+    width: 80px;
+    height: 25px;
+}
+
+/* Content 2 */
+.content2 {
+    padding: 20px 200px;
+}
+
+.c2header {
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: center;
+    color: #1F2937;
+}
+
+.c2info {
+    display: flex;
+    justify-content: space-around;
+}
+
+.c2img {
+    border-radius: 25px;
+    width: 200px;
+    height: 200px;
+}
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 200px;
+}
+
+.text {
+    text-align: center;
+    padding-top: 10px;
+}
+
+/* Content 3 */
+.content3 {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    color: #1F2937;
+    padding: 20px 200px;
+}
+
+.quotetext {
+    text-align: left;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: lighter;
+    padding: 20px;
+}
+
+.quotename {
+    text-align: right;
+    font-size: 20px;
+    font-weight: bolder;
+    padding-right: 100px;
+}
+
+/* Content 4 */
+.c4box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 5px;
+    margin: 50px 150px;
+    padding: 20px 200px;
+}
+
+.action {
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.actionbox {
+    padding: 20px;
+}
+
+.c4button {
+    border: 1px solid white;
+    font-weight: bold;
+    width: 80px;
+    height: 25px;
+}
+
+/* Footer */
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 200px;
+    background-color: #1F2937;
+    color: white;
+    font-size: 12px;
 }
